@@ -3,6 +3,7 @@ html
 height: 100%;
 margin: 0px;
 padding: 0px;
+border: 1px solid green ;
 }
 
 #container{
@@ -11,6 +12,7 @@ padding: 0px;
 	height: 95%;
 	margin: 0px;
 	padding: 0px;
+	border: 1px solid yellow ;
 }
 
 body {
@@ -20,6 +22,7 @@ body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
+	border: 1px solid red;
 }
 
 input {
@@ -45,6 +48,7 @@ input {
 	flex-direction: column;
 	margin-bottom: 0px;
 	height: 85%;
+	border: 1px solid black ;
 
 }
  
@@ -106,6 +110,7 @@ a {
 	position: sticky; 
  	align-items: stretch;
  	color: #5f5d6b;
+ 	border: 1px solid #a88cfb ;
 
  }
 
