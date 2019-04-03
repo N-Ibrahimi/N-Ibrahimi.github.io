@@ -12,9 +12,7 @@ padding: 0px;
 	flex-direction: column;
 	height: 100%;
 	margin: 0px;
-	padding: 0px;
-	
-	
+	padding: 0px;	
 }
 
 body {
@@ -24,8 +22,14 @@ body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	
-	
+}
+
+#app{
+	opacity: 0.5;
+}
+
+#app:hover{
+	opacity: 1;
 }
 
 input {
@@ -33,23 +37,23 @@ input {
 	display: block;
 	height: 45px;
 	margin-top: 40px;
-    border: none;
-    border:solid 1px #ccc;
+   	border:solid 1px #ccc;
     border-radius: 20px;
     padding-left: 20px; 
-
 }
 
 input:hover{
 	box-shadow:  0px 0px 3px 1px #afdcff;
 }
 
+input:focus {
+	outline: 0;
+}
+
 .logo {
 	position: relative;
 	margin-top: 10%; 
-
 }
-
 
 #content{ 
 	display: flex;
@@ -58,7 +62,6 @@ input:hover{
 	margin-bottom: 0px;
 	height: 89%;
 	position: relative;
-
 }
  
 
@@ -69,7 +72,6 @@ a {
 	padding:  5px 3px 5px 3px; 
 	font-size: 13px;
 	cursor: pointer;
-
 }
 
 .sign {
@@ -91,7 +93,12 @@ a {
 }
 
 .sign a:hover {
-	text-decoration: underline;
+	text-decoration:none;
+	
+}
+
+.sign:hover {
+	box-shadow: 0px 0px 1px 1px #6964ee;
 }
 
 #header
@@ -102,7 +109,6 @@ a {
  	justify-content: flex-end;
  	margin-top: 5px;
  	height: 10%;
-
  }
  
 
@@ -120,8 +126,6 @@ a {
 	position: sticky; 
  	align-items: stretch;
  	color: #5f5d6b;
- 	
-
  }
 
 
@@ -154,8 +158,7 @@ button {
 	width: 49%;
 	display: block;
 	margin: 7px 17px 0px 49%;
-	text-align: right;
-	
+	text-align: right;	
 }
 
 
@@ -167,8 +170,7 @@ button {
 	position: absolute;
 	width: 49%;
 	display: block;
-	margin:7px 0px 0px 17px;
-	
+	margin:7px 0px 0px 17px;	
 }
 
 a:hover {
@@ -176,11 +178,13 @@ a:hover {
 	opacity: 1;
 }
 
-.butt:hover{
+.butt{
+	width: 150px;
+}
 
+.butt:hover{
 	color: black;
 	box-shadow: 1px 1px 3px #8985a5;
-	
 }
 
 p a {
@@ -190,12 +194,10 @@ p a {
 #footer p { 
 	margin-left: 25px; 
 	padding: 0px ;  
-
 }
 
 #footer a {
 	color: #5f5d6b;
-
 }
 
 .france{
@@ -212,5 +214,4 @@ p a {
  	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	justify-content: space-between;
-
 }

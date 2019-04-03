@@ -1,77 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8" lang="en">
- <!--icon -->
-	<title>Google</title>
-	<link rel="icon" href="source/favicon.ico" type="image/x-icon"/>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="text/javascript">
+	<head>
+		<meta charset="utf-8" lang="en">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--icon and title  -->
+		<title>Google</title>
+		<link rel="icon" href="source/favicon.ico" type="image/x-icon"/>
 
-		function message() {
-			alert("aucune fonctionnalité n'est pas attribuée à ce button\n on va l'ajouter dès qu'on aura apris javascript");
-		};
+	<!-- <les alerts et fonctionnalités javascript --> 
+		<script type="text/javascript">
 
-		function mot() {
-			alert("C'est cool que tu essaies de faire la recherche\n mais figure-toi, c'est une page fake!");
-		};
+			function wellcome() {
+				alert("Bienvenu sur notre site \n Bonne correction!");
+			};
 
-	</script>
-</head>
+			function message() {
+				alert("aucune fonctionnalité n'est pas attribuée à ce button\n on va l'ajouter dès qu'on aura apris javascript");
+			};
+
+			function mot() {
+				alert("C'est cool que tu essaies de faire la recherche\n mais figure-toi, c'est une page fake!");
+			};
+
+			wellcome()
+		</script>
+	</head>
+
 
 <body>
 	<div id="container">
 
-				<div id="header">
-					<a href="https://mail.google.com/mail/?tab=wm"> Gmail </a>
-					<a href="https://www.google.fr/imghp?hl=en&tab=wi"> Images </a>
-					<a href="#" onclick="message()"> <img src="source/app.png" width="18" height="18" /></a>
-					<button class="sign" type="button" >
-						<a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.fr%2Fimghp%3Fhl%3Den%26tab%3Dwi&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> Sign in </a>
-					</button>
-				</div>
+		<div id="header">
+			<a href="https://mail.google.com/mail/?tab=wm"> Gmail </a>
+			<a href="https://www.google.fr/imghp?hl=en&tab=wi"> Images </a>
+			<a href="#" onclick="message()"> <img src="source/app.png" width="18" height="18" id="app" /></a>
+			<button class="sign" type="button" >
+				<a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.fr%2Fimghp%3Fhl%3Den%26tab%3Dwi&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> Sign in </a>
+			</button>
+		</div>
 
 		<div  id="content">
-
 			<img src="source/logo.png" class="logo" />
-				
 				<input id="words"  onchange="mot()" type="search" name="search" placeholder="Type the words" autocomplete="on">
 
-							<div class="two">
-							<button  class="butt"  onclick="mot()">    Search Google   </button>
-							<button class="butt" > I'am Feeling Lucky </button>
-							</div>
-		<p> Google offered in: <a href="https://www.google.com/setprefs?sig=0_2LvIrS5AWn14DzbBKGyVyKCYd1Q%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwjn0aD_j97fAhVGzoUKHfBVBxoQ2ZgBCAc">Français</a></p>
+				<div class="two">
+					<button  class="butt"  onclick="mot()">    Search Google   </button>
+					<button class="butt" > I'am Feeling Lucky </button>
+				</div>
+					<p> Google offered in: <a href="https://www.google.com/setprefs?sig=0_2LvIrS5AWn14DzbBKGyVyKCYd1Q%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwjn0aD_j97fAhVGzoUKHfBVBxoQ2ZgBCAc">Français</a></p>
 		</div>
 
 		<div id="footer">
-			 <div class="france"> 
+			<div class="france"> 
 			 	<p>France</p>
-			 </div>
+			</div>
 
 			<div class="btm">
 
-			 <div class="left"> 
+				<div class="left"> 
 					<a href="https://www.google.com/intl/en_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
 					<a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
 					<a href="https://www.google.com/intl/en_fr/about/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
-			 
-			 </div>
+				</div>
 			 	
 
-			 <div class="right"> 
-				<a href="https://support.google.com/websearch?p=fr_consumer_info&hl=en-FR&fg=1&sa=X&ved=0ahUKEwjn0aD_j97fAhVGzoUKHfBVBxoQ9NMDCA4">Consumer Information </a>
-			 	<a href="https://www.google.com/intl/en_fr/policies/privacy/?fg=1">Privacy </a>
-			 	<a href="https://www.google.com/intl/en_fr/policies/terms/?fg=1">Terms </a>
-			 	<a href="https://www.google.com/preferences?hl=en">Settings </a>
-			 </div>
-
-			 </div>
-
+				 <div class="right"> 
+					<a href="https://support.google.com/websearch?p=fr_consumer_info&hl=en-FR&fg=1&sa=X&ved=0ahUKEwjn0aD_j97fAhVGzoUKHfBVBxoQ9NMDCA4">Consumer Information </a>
+				 	<a href="https://www.google.com/intl/en_fr/policies/privacy/?fg=1">Privacy </a>
+				 	<a href="https://www.google.com/intl/en_fr/policies/terms/?fg=1">Terms </a>
+				 	<a href="https://www.google.com/preferences?hl=en">Settings </a>
+				 </div>
+			</div>
 		</div>
-
- </div>
-
+ 	</div>
 </body>
 </html>
