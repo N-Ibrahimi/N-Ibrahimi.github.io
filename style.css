@@ -15,7 +15,7 @@ body{
 
 p{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: justify;
 }
 
@@ -41,7 +41,7 @@ p{
 
 h1{
     font-family: 'Jacques Francois Shadow', cursive;
-    font-size: 3.5em; 
+    font-size: 2em; 
     color: #cef9ffc7;
     text-shadow: 2px 2px 4px #757c7c9d;
 }
@@ -50,7 +50,7 @@ li{
     list-style: none;
     padding-left: 8%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em; 
+    font-size: 1em; 
     font-weight: bolder;
 }
 
@@ -61,8 +61,8 @@ a{
 h2{
 font-family: 'Coiny', cursive;
 text-shadow: 1px 1px 3px #232525;
-font-size: 2em; 
-padding-top: 25px; 
+font-size: 1.5em; 
+padding-top: 15px; 
 color: rgba(132, 248, 248, 0.678);
 
 }
@@ -75,8 +75,8 @@ color: rgba(132, 248, 248, 0.678);
 }
 .rounded-circle{
     border:solid 9px #579393;
-    height: 290px;
-    width: 250px;
+    height: 200px;
+    width: 180px;
 } 
 
 i{
@@ -85,8 +85,9 @@ i{
 }
 
 i+p, i+a {
-    margin-top: 0.65em; 
+    margin-top: 0.5em; 
     line-height:1em; 
+    font-size: 0.8em;
     
 }
 
@@ -98,9 +99,9 @@ i+p, i+a {
 
 
 h2+p{
-    font-size: 1.3em; 
+    font-size: 1.2em; 
     color: #beecec;
-    margin-top: 2em;
+    margin-top: 0.85em;
     font-family: 'Times New Roman', Times, serif;
 }
 .my_title{
@@ -146,11 +147,4 @@ p:nth-last-child(2){
 
 .links> a:hover{
     color: red;
-}
-
-@media (min-width: 576px) and (max-width: 767px)
-{
-    #photo{
-        display: none !important;
-    } 
 }
