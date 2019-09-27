@@ -1,0 +1,156 @@
+.head{
+    height: 25%;
+    margin: 0px; 
+}
+
+body{
+    box-sizing:border-box;
+}
+
+.bar_left{
+    background-color: #65b7b5;
+    margin: 0px; 
+    min-width: 400px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.marge_left{
+    margin-left: 0px; 
+    width:25px;
+}
+
+.container{
+    height: 100%;
+    margin: 0px; 
+}
+
+.box{
+    height: auto; 
+    color: #beecec;
+}
+.box> p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em; 
+}
+
+h1{
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 3.5em; 
+    color: #cef9ffc7;
+    text-shadow: 2px 2px 4px #757c7c9d;
+}
+
+li{
+    list-style: none;
+    padding-left: 8%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em; 
+    font-weight: bolder;
+}
+
+a{
+    color:rgba(105, 64, 10, 0.788);
+}
+
+h2{
+font-family: 'Coiny', cursive;
+text-shadow: 1px 1px 3px #232525;
+font-size: 2em; 
+padding-top: 25px; 
+color: rgba(132, 248, 248, 0.678);
+
+}
+
+#bar_top{
+    height: 40%; 
+}
+#main_part{
+    height: 100%;
+}
+.rounded-circle{
+    border:solid 9px #579393;
+    height: 290px;
+    width: 250px;
+} 
+
+i{
+    font-size: 1.75em;
+    margin-bottom: 0.75em; 
+}
+
+i+p, i+a {
+    margin-top: 0.65em; 
+    line-height:1em; 
+    
+}
+
+
+.links{
+    margin-left: 2em;
+    display: inline-block;
+}
+
+
+h2+p{
+    font-size: 1.3em; 
+    color: #beecec;
+    margin-top: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.my_title{
+    height: 50%;
+}
+
+p:nth-last-child(2){
+    font-size: 1.5em; 
+    text-decoration: underline;
+    color: #4a5757;
+    font-family: 'Chewy', cursive;
+}
+
+.contenu_section:last-child {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#education>p , #experience>p , #divers>p{
+    font-family:'Coiny', cursive;
+    font-size: 1.5em;
+    color: #beecec;
+    padding:0.5em; 
+}
+
+.informatique{
+    border: #616077 solid 1px; 
+    border-radius: 5px; 
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+    background-color: #566b97;
+    color: rgb(235, 166, 88);
+    text-shadow: 1px 1px 5px black;
+}
+.year{
+    font-size: 1.25em; 
+    margin-left:15px;
+    font-family:'Coiny', cursive;
+    padding-top:5px; 
+}
+.contenu_section{
+    margin-left: 1em;
+}
+
+.links> a:hover{
+    color: red;
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    #photo{
+        display: none !important;
+    } 
+}
