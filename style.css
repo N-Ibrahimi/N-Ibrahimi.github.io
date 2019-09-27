@@ -10,13 +10,13 @@ body{
 .bar_left{
     background-color: #65b7b5;
     margin: 0px; 
-    min-width: 400px;
+    min-width: 300px;
 }
 
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
-    text-align: justify;
+    text-align: left;
 }
 
 .marge_left{
@@ -36,7 +36,7 @@ p{
 .box> p{
     text-align: center;
     font-weight: bolder;
-    font-size: 1.5em; 
+    font-size: 1.2em; 
 }
 
 h1{
@@ -87,7 +87,7 @@ i{
 i+p, i+a {
     margin-top: 0.5em; 
     line-height:1em; 
-    font-size: 0.8em;
+    font-size: 1em;
     
 }
 
@@ -112,7 +112,7 @@ p:nth-last-child(2){
     font-size: 1.5em; 
     text-decoration: underline;
     color: #4a5757;
-    font-family: 'Chewy', cursive;
+    font-family: 'Song Myung', serif;
 }
 
 .contenu_section:last-child {
@@ -147,4 +147,11 @@ p:nth-last-child(2){
 
 .links> a:hover{
     color: red;
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+    #photo{
+        display: none !important;
+    } 
 }
