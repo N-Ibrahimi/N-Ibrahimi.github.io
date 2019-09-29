@@ -1,27 +1,7 @@
-.head{
-    height: 25%;
-    margin: 0px; 
-}
 
+/* General codes*/ 
 body{
     box-sizing:border-box;
-}
-
-.bar_left{
-    background-color: #65b7b5;
-    margin: 0px; 
-    min-width: 300px;
-}
-
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
-    text-align: left;
-}
-
-.marge_left{
-    margin-left: 0px; 
-    width:25px;
 }
 
 .container{
@@ -29,101 +9,103 @@ p{
     margin: 0px; 
 }
 
-.box{
-    height: auto; 
-    color: #beecec;
-}
-.box> p{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 1.2em; 
-}
-
 h1{
     font-family: 'Jacques Francois Shadow', cursive;
-    font-size: 2em; 
+    font-size: 3.5em; 
     color: #cef9ffc7;
     text-shadow: 2px 2px 4px #757c7c9d;
+    padding-top: 1em; 
 }
 
-li{
-    list-style: none;
-    padding-left: 8%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1em; 
-    font-weight: bolder;
+h2{
+    font-family: 'Coiny', cursive;
+    text-shadow: 1px 1px 3px #232525;
+    font-size: 1.5em; 
+    padding-top: 15px; 
+    color: rgba(132, 248, 248, 0.678);
+}
+
+h3{
+    font-family:'Coiny', cursive;
+    font-size: 1.8em;
+    color: #beecec;
+    padding:0.5em; 
 }
 
 a{
     color:rgba(105, 64, 10, 0.788);
+    font-size: 1.2em; 
+    font-weight: bold;
+    margin-top: 0.5em;
 }
 
-h2{
-font-family: 'Coiny', cursive;
-text-shadow: 1px 1px 3px #232525;
-font-size: 1.5em; 
-padding-top: 15px; 
-color: rgba(132, 248, 248, 0.678);
-
+li{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em; 
 }
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+/* top black bar */ 
 
 #bar_top{
-    height: 40%; 
+    height:45%; 
 }
-#main_part{
-    height: 100%;
-}
+
 .rounded-circle{
     border:solid 9px #579393;
-    height: 200px;
-    width: 180px;
+    height: 250px;
+    width: 200px;
 } 
 
-i{
-    font-size: 1.75em;
-    margin-bottom: 0.75em; 
-}
-
-i+p, i+a {
-    margin-top: 0.5em; 
-    line-height:1em; 
-    font-size: 1em;
-    
-}
-
-
-.links{
-    margin-left: 2em;
-    display: inline-block;
-}
-
-
 h2+p{
-    font-size: 1.2em; 
+    font-size: 1.5em; 
     color: #beecec;
     margin-top: 0.85em;
     font-family: 'Times New Roman', Times, serif;
-}
-.my_title{
-    height: 50%;
+    padding-bottom: 1em; 
 }
 
-p:nth-last-child(2){
+
+#main_part{
+    height: 100%;
+}
+
+/* left side*/ 
+
+.marge_left{
+    margin-left: 0px; 
+    width:25px;
+}
+
+.bar_left{
+    background-color: #65b7b5;
+    margin: 0px; 
+    min-width: 250px;
+}
+
+.info{
+    padding-left:5px;
+    margin-top: 1em; 
+}
+
+.links{
+    display: inline-block;
+}
+
+.box{
+    height: auto; 
+    color: #faa507;
+}
+.box> p{
+    text-align: center;
+    font-weight: bolder;
     font-size: 1.5em; 
-    text-decoration: underline;
-    color: #4a5757;
-    font-family: 'Song Myung', serif;
-}
-
-.contenu_section:last-child {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#education>p , #experience>p , #divers>p{
-    font-family:'Coiny', cursive;
-    font-size: 1.5em;
-    color: #beecec;
-    padding:0.5em; 
 }
 
 .informatique{
@@ -134,24 +116,51 @@ p:nth-last-child(2){
     background-color: #566b97;
     color: rgb(235, 166, 88);
     text-shadow: 1px 1px 5px black;
+    padding-top: 3px;
+    padding-bottom: 3px; 
+    font-size: 1.5em;
+}
+
+.informatique ~ p{
+    padding-left: 1em;
+}
+
+.flag{
+    height: 12%;
+    width: 12%;
+    margin:0.5em 0.5em 0.5em 0em; 
+}
+.language > p {
+    padding-left: 1em; 
+    padding-top: 0.8em; 
+    margin: 0px; 
+    
 }
 .year{
-    font-size: 1.25em; 
+    font-size: 1.5em; 
     margin-left:15px;
     font-family:'Coiny', cursive;
     padding-top:5px; 
 }
+p:nth-last-child(2){
+    font-size: 1.5em; 
+    text-decoration: underline;
+    color: #4a5757;
+    font-family: 'Song Myung', serif;
+    margin-bottom: 5px;
+}
+
+.contenu_section:last-child {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .contenu_section{
     margin-left: 1em;
 }
 
-.links> a:hover{
-    color: red;
-}
-
-@media (min-width: 576px) and (max-width: 767px)
+@media (min-width:400px) and (max-width:1200px)
 {
-    #photo{
+    #photo , .icons{
         display: none !important;
-    } 
+    }
 }
