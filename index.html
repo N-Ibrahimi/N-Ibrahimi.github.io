@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="./style.css">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Song+Myung|Chewy|Coiny|Jacques+Francois+Shadow&display=swap"
         rel="stylesheet">
 </head>
@@ -39,59 +39,50 @@
         </div>
 
         <!-- main part  -->
-        <div class="row" id="main_part">
+        <div class="row pr-0 mr-0" id="main_part">
             <div class="marge_left col-sm-0">&nbsp;</div>
-            <div class="bar_left col-lg-3 col-md-4 col-sm-12 pb-5">
-
+            <div class="bar_left order-sm-2 order-md-1 col-lg-3 col-md-3 col-sm-12 pb-5">
                 <!--section info -->
-                <div class="box col-11 bg-dark my-4 mx-auto  pt-2 pb-1 rounded">
-                    <p>Info </p>
-                </div>
-                <div>
-                    <lu>
+                <div class="col-12">
+                    <div class="box col-11 bg-dark my-4 mx-auto  pt-2 pb-1 rounded">
+                        <p>Info  </p>
+                    </div>
+                    <div class="col-12">
                         <!--address -->
-                        <li>
-                            <div class="row">
-                                <i class="fas fa-map-marker-alt col-2"></i>
-                                <a href="https://goo.gl/maps/CGePpquRA67KFCdE9" style="color:black" target="_blank">Tonkin,Villeurbanne, 69100 </a>
-                            </div>
-                        </li>
+                        <div class="row info">
+                            <img src="https://img.icons8.com/color/40/000000/order-delivered.png" class="icons" >
+                            <a href="https://goo.gl/maps/CGePpquRA67KFCdE9" style="color:black" target="_blank" >&nbsp;Tonkin,Villeurbanne, 69100 </a>
+                        </div>
                         <!--Mobile number -->
-                        <li>
-                            <div class="row">
-                                <i class="fas fa-mobile-alt col-2"></i>
-                                <a href="tel:+33768258888" style="color:black">(+33) 768 25 88 88</a>
-                            </div>
-                        </li>
+                        <div class="row info">
+                            <img src="https://img.icons8.com/color/40/000000/phonelink-ring.png"class="icons" >
+                            <a href="tel:+33768258888" style="color:black" >&nbsp;(+33) 768 25 88 88</a>
+                        </div>
                         <!--email -->
-                        <li>
-                            <div class="row">
-                                <i class="fas fa-at px-2"></i>
-                                <a href="mailto:nasim_eni@yahoo.com" style="color: blue">&nbsp;&nbsp;nasim_ebi@yahoo.com</a>
-                            </div>
-                        </li>
+                        <div class="row info">
+                            <img src="https://img.icons8.com/doodle/40/000000/email--v2.png" class="icons" >
+                            <a href="mailto:nasim_eni@yahoo.com" style="color: blue" >&nbsp;nasim_ebi@yahoo.com</a>
+                        </div>
                         <!-- social media links -->
-                        <li>
-                            <div>
-                                <a href="https://www.facebook.com/ibrahimi.nasim" target="_blank" class="links"><i
-                                        class="fab fa-facebook"></i></a>
-                                <a href="https://www.instagram.com/?hl=fr" target="_blank" class="links"><i
-                                        class="fab fa-instagram"></i></a>
-                                <a href="https://www.facebook.com/ibrahimi.nasim" target="_blank" class="links"><i
-                                        class="fab fa-linkedin"></i></a>
-                            </div>
-                        </li>
-                    </lu>
+                        <div class="row info d-flex flex justify-content-around ">
+                            <a href="https://www.facebook.com/ibrahimi.nasim" target="_blank" class="links">
+                                <img src="https://img.icons8.com/doodle/48/000000/facebook-circled.png"></a>
+                            <a href="https://www.instagram.com/?hl=fr" target="_blank" class="links">
+                                <img src="https://img.icons8.com/doodle/54/000000/instagram--v3.png"></a>
+                            <a href="https://www.facebook.com/ibrahimi.nasim" target="_blank" class="links">
+                                <img src="https://img.icons8.com/doodle/43/000000/linkedin.png"></a>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- section connaissance informatiques-->
-                <div class="box col-11 bg-dark my-4 mx-auto pt-3 pb-1 rounded">
+                <div class="box col-11 bg-dark my-5 mx-auto pt-3 pb-1 rounded">
                     <p>Connaissances informatiques</p>
                 </div>
-                <div class="col-10 pl-2 ml-5">
+                <div class="col-11 pl-2 ml-3">
                     <lu>
                         <li class="informatique">Logiciels</li>
-                            <p>Pack Office</p>
+                            <p>Pack Office</p> 
                             <p>Ms Access</p>
                             <p>Photoshop</p>
                         <li class="informatique">Codage</li>
@@ -109,100 +100,104 @@
                 </div>
 
                 <!--section langues-->
-                <div class="box col-11 bg-dark my-4 mx-auto pt-3 pb-1 rounded">
+                <div class="box col-11 bg-dark mx-auto pt-3 mt-5 pb-1 rounded">
                     <p>Langues</p>
                 </div>
-                <lu>
-                    <li>Persan</li>
-                    <div class="progress mx-5 ">
+                <div class="language col-11 my-0">
+                    <p><img src="./files/afg.svg" class="flag">Persan</p>
+                    <div class="progress ml-3 ">
                         <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:100%"
                             aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <li>français</li>
-                    <div class="progress mx-5 ">
+                    <p><img src="./files/fr.svg" class="flag">français</p>
+                    <div class="progress ml-3 ">
                         <div class="progress-bar progress-bar-striped  bg-warning" role="progressbar" style="width:75%"
                             aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <li>anglais</li>
-                    <div class="progress mx-5">
+                    <p><img src="./files/uk.svg" class="flag">anglais</p>
+                    <div class="progress ml-3">
                         <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:25%"
                             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                </lu>
+                    <p></p><p></p>
+                </div>
             </div>
 
             <!-- main body of cv -->
-            <div class="col-md-8 col-sm-12">
-                <section class="m-3 px-3 ">
-                    <div class="col-12 bg-dark rounded text-light" id="education">
-                        <p>Education</p>
+            <div class=" col-md-8 order-sm-1 order-md-2 col-sm-12 mx-0 px-0">
+                <section class="ml-3 mr-0 my-4 ">
+                <!--section education-->
+                    <div class="col-12 bg-dark rounded mb-2">
+                        <h3>Education</h3>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2019</div>
-                        <div class="col-9">
+                        <div class="year col-md-2 ml-1">2019</div>
+                        <div class="col-md-9 ">
                             <p>Développement Web (3 mois)</p>
                             <p>The Hacking Project (THP), Lyon</p>
                         </div>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2018</div>
+                        <div class="year col-2 ml-1">2018</div>
                         <div class="col-9">
                             <p>Master 2 de Droit Privé Fondamental</p>
                             <p>Faculté de droit, Université Lyon III Jean Moulin</p>
                         </div>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2017 </div>
-                        <div class="col-9">
+                        <div class="year col-2 ml-1">2017 </div>
+                        <div class="col-9 mx-0">
                             <p>Master 1 de Droit Privé et Judiciaire</p>
                             <p>Faculté de droit, Université Lyon III Jean Moulin</p>
                         </div>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2015 </div>
+                        <div class="year col-2 ml-1">2015 </div>
                         <div class="col-9">
                             <p>D.U. Préparation aux études du droit en français</p>
                             <p>Faculté de droit, Université Lyon III Jean Moulin</p>
                         </div>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2014 </div>
+                        <div class="year col-2 ml-1">2014 </div>
                         <div class="col-9">
                             <p> Droit Judiciaire </p>
                             <p>Faculté de Droit, Université de Kaboul, Afghanistan</p>
                         </div>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2004 </div>
+                        <div class="year col-2 ml-1">2004 </div>
                         <div class="col-9">
                             <p> Bac Général </p>
                             <p>Lycée de Shahid Ghulam Sakhi, Ghazni, Afghanistan </p>
                         </div>
                     </div>
                 </section>
-                <section>
-                    <div class="titre col-12 bg-dark rounded" id="experience">
-                        <p>Expérience</p>
+
+                <!-- experience section-->
+                <section class="ml-3 mr-0 my-4">
+                    <div class="col-12 bg-dark rounded mb-2">
+                        <h3>Expérience</h3>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2012-2015</div>
-                        <div class="col-9 ml-2">
+                        <div class="year col-2 ml-1">2012-2015</div>
+                        <div class="col-9">
                             <p>Chercheur juridique </p>
-                            <p>Etudes comparatives des législations étrangères<br />
+                            <p>Etudes comparatives des législations étrangères<br/>
                                 Département Recherche et Législation, Parlement afghan, Kaboul, Afghanistan</p>
                         </div>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2010-2011</div>
-                        <div class="col-9 ml-2">
+                        <div class="year col-2 ml-1">2010-2011</div>
+                        <div class="col-8">
                             <p>Superviseur de projets humanitaires</p>
                             <p>Responsable de la supervision et de l’analyse du déroulement<br />
                                 EAC (Education & aide center), Kaboul, Afghanistan</p>
                         </div>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2009-2010</div>
-                        <div class="col-9 ml-2">
+                        <div class="year col-2 ml-1">2009-2010</div>
+                        <div class="col-9">
                             <p>Assistant financier </p>
                             <p>Préparation des composants budgétaires, analyse financière et rédaction des bilans
                                 financiers<br/>
@@ -210,8 +205,8 @@
                         </div>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2007-2009</div>
-                        <div class="col-9 ml-2">
+                        <div class="year col-2 ml-1">2007-2009</div>
+                        <div class="col-9">
                             <p>Responsable du Programme SEP (Small Enterprise Project)</p>
                             <p>Vérification, préparations des dossiers d’attribution des crédits,<br/>Mise en place des
                                 procédures juridiques de recouvrement des dettes <br />
@@ -219,19 +214,20 @@
                         </div>
                     </div>
                     <div class="contenu_section row">
-                        <div class="year col-2 ml-4">2005-2007</div>
-                        <div class="col-9 ml-2">
+                        <div class="year col-2 ml-1">2005-2007</div>
+                        <div class="col-9">
                             <p>Instituteur en matières générales et informatique</p>
                             <p>Ecole Amir Al-Moménine et Ghaznah Modle School, Ghazni,Afghanistan</p>
                         </div>
                     </div>
                 </section>
-                <section class="mb-5">
-                    <div class="titre col-12 bg-dark rounded" id="divers">
-                        <p>Divers</p>
+                <!-- section divers-->
+                <section class="ml-3 mr-0 my-4">
+                    <div class="col-12 bg-dark rounded mb-2">
+                        <h3>Divers</h3>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 mr-2">
                             <ul>
                                 <li>Notions d’électronique et logiciels de montage de vidéo</li>
                                 <li>Formation de cameraman (2 mois)</li>
@@ -239,7 +235,7 @@
                                 <li>menuiserie bois (1an)</li>
                             </ul>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 mx-0" style="border-left: dotted rgb(65, 62, 57) 2px">
                             <ul>
                                 <li>Engagements associatifs</li>
                                 <li>Sports collectifs (basket, volley, football)</li>
