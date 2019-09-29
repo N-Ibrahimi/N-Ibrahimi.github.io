@@ -157,7 +157,7 @@ p:nth-last-child(2){
     margin-left: 1em;
 }
 
-@media (min-width:400px) and (max-width:768px)
+@media (min-width:400px) and (max-width:995px)
 {
     #photo , .icons{
         display: none !important;
