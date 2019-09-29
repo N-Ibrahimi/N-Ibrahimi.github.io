@@ -116,8 +116,7 @@ h2+p{
     background-color: #566b97;
     color: rgb(235, 166, 88);
     text-shadow: 1px 1px 5px black;
-    padding-top: 3px;
-    padding-bottom: 3px; 
+    padding: 3px;
     font-size: 1.5em;
 }
 
